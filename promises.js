@@ -2,7 +2,8 @@
  * Promise is an Object representing the eventual completion / failure of an async operation. 
  * Essentially, a promise is a returned object to which u can attach callbacks instead of passing callbacks
  * into a function. 
- * Promise Objects are immutable -> i.e. whenever they are fulfilled / whenever they have some data , nobody can mutate / modify
+ * Promise Objects are immutable -> i.e. whenever they are fulfilled / whenever they have some data ,
+ * nobody can mutate / modify
  * them. 
  * Promise Objects are resolved only once.
  * They save us from CALLBACK HELLS. 
@@ -14,7 +15,7 @@
  * Why do we need promises? 
  *  -> Async nature of JS : as it's single threaded, & in case of multiple operations to avoid blocking the thread
  *  -> Improved Readability over callbacks 
- *  -> Error handling - using .catch / try or catch ina sync await
+ *  -> Error handling - using .catch / try or catch in async await
  *  -> Chaining & Composition : Allowing multiple async operations in sequence / using them parallely 
  *      by making use of utilities like Promise.all() or Promise.race()
  *  -> Integration with async / await. 

@@ -1,4 +1,5 @@
-// this - refers to the object i.e currently executing the code. WBehaves differently for different conditions. 
+// this - refers to the object i.e currently executing the code. 
+// Behaves differently for different conditions. 
 
 // 1. This in Global space
 
@@ -56,7 +57,7 @@ const obj2 = {
     a : 10,
     x : () =>{
         console.log("inside object2's method", this);
-        console.log(this.a); // 10 as this belongs to obj here.
+        console.log(this.a); // undefined
     }
 };
 
